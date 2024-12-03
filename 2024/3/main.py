@@ -11,8 +11,7 @@ def p1():
     sum = 0
     for fn in mul_fns:
         nums = re.findall(r"\d+", fn)
-        res = int(nums[0]) * int(nums[1])
-        sum += res
+        sum += int(nums[0]) * int(nums[1])
     return sum
 
 def p2():
