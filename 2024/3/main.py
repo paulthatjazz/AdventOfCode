@@ -29,8 +29,7 @@ def p2():
                 do = True
         else:
             if do:
-                res = int(nums[0]) * int(nums[1])
-                sum += res
+                sum += (int(nums[0]) * int(nums[1]))
     return sum
 
 if __name__ == "__main__":
